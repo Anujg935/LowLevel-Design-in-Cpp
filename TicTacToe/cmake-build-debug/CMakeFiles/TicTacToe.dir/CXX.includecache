@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../board.h
+player.h
+-
+
+../player.h
+bits/stdc++.h
+-
+
+../tictactoe.h
+bits/stdc++.h
+-
+iostream
+-
+board.h
+-
+
+D:/Anuj/LowLevelDesign/TicTacToe/board.cpp
+board.h
+D:/Anuj/LowLevelDesign/TicTacToe/board.h
+
+D:/Anuj/LowLevelDesign/TicTacToe/board.h
+player.h
+-
+
+D:/Anuj/LowLevelDesign/TicTacToe/main.cpp
+iostream
+-
+tictactoe.h
+-
+bits/stdc++.h
+-
+

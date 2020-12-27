@@ -57,4 +57,18 @@ void TicTacToe::generateReport(){
 
     board.print();
 
+    std::cout << "Moves by " << p1.name << std::endl;
+
+    for(auto i:p1.movesList){
+        std::cout << "("<<i.first <<", " <<i.second << ") ";
+    }
+    std::cout << std::endl;
+
+    std::cout << "Moves by " << p2.name << std::endl;
+
+    for(auto i:p2.movesList){
+        std::cout << "("<<i.first <<", " <<i.second << ") ";
+    }
+    std::cout << std::endl;
+
 }

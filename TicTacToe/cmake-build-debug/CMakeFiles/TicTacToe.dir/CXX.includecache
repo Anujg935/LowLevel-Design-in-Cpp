@@ -22,19 +22,7 @@ iostream
 board.h
 -
 
-D:/Anuj/LowLevelDesign/TicTacToe/board.cpp
-board.h
-D:/Anuj/LowLevelDesign/TicTacToe/board.h
-
-D:/Anuj/LowLevelDesign/TicTacToe/board.h
-player.h
--
-
-D:/Anuj/LowLevelDesign/TicTacToe/main.cpp
-iostream
--
+D:/Anuj/LowLevelDesign/TicTacToe/tictactoe.cpp
 tictactoe.h
--
-bits/stdc++.h
 -
 
